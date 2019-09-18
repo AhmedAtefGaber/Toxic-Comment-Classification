@@ -4,7 +4,7 @@ building a multi-headed model that’s capable of detecting different types of t
 - obscene
 - threat
 - insult
-- identity_hate 
+- identity_hate <p> 
 Using dataset of a large number of Wikipedia comments have been labeled by human.
 the input to the NN is the sentences after Tokenization and padding then pass it to an Embedding layer,
 where it projects the words to a defined vector space depending on the distance of the surrounding words in a sentence. 
